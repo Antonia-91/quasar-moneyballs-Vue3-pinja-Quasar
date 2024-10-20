@@ -1,1 +1,17 @@
 // app global css in SCSS form
+.q-drawer {
+  background-color: #1d1d1d;
+
+  .q-item {
+    opacity: 0.5;
+    &.q-router-link--exact-active {
+      opacity: 1;
+    }
+  }
+}
+
+// number input
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 10px;
+}
